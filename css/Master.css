@@ -1,0 +1,47 @@
+body {
+  font-family :'나눔고딕', 'Malgun Gothic', sans-serif;
+  color: #808080;
+}
+a:link{
+  color: #808080;
+  text-decoration: none;
+}
+a:hover{
+  color: slateblue;
+}
+
+/*CLASS에다가 적용할 CSS 속성*/
+#Menu_bt{
+  padding-right: 10%;
+  padding-top:3%;
+  padding-left: 42%;
+}
+
+/*ID에다가 적용할 CSS 속성*/
+#Logo {
+    float: left;
+    padding: 0;
+    margin-right: 15px;
+    width: 360px;
+    height: 90px;
+    padding-top: 12px;
+    padding-left: 13%;
+}
+#topRight{
+  font-size: 9pt;
+  float: right;
+  padding-right: 16%;
+}
+#Menu_bt ul{
+  display: none;
+}
+#Menu_bt ul a:hover li{
+ display: block;
+}
+#Photo2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
