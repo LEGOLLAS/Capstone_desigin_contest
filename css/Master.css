@@ -33,6 +33,13 @@ ul li{
   display: block;
   color: slateblue;
 }
+a.btn_more{
+  float: right;
+  font-size: 17px;
+  font-weight: bold;
+  margin:4px 7px 0 0;
+  text-decoration: none;
+}
 /*ID에다가 적용할 CSS 속성*/
 #Logo {
     float: left;
@@ -58,4 +65,12 @@ ul li{
 }
 #Sub_menu{
   color: #808080;
+}
+#Main_content{
+  padding: 0px 0 0px 0;
+}
+#Main_content > .notice >.header{
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight:bold;
 }
