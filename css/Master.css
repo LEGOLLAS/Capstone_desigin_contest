@@ -6,17 +6,33 @@ a:link{
   color: #808080;
   text-decoration: none;
 }
-a:hover{
+ul{
+  margin-top: -58px;
+  width: 50%;
+  float: right;
+  padding-right: 10%;
+  list-style: none;
+  font-weight: bold;
+}
+ul li{
+  float: left;
+  margin: 0px 20px;
+}
+/*CLASS에다가 적용할 CSS 속성*/
+.Menu_bt ul{
+  display: none;
+  height:auto;
+  padding:31px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width : 600%;
+}
+
+.Menu_bt li:hover ul{
+  display: block;
   color: slateblue;
 }
-
-/*CLASS에다가 적용할 CSS 속성*/
-#Menu_bt{
-  padding-right: 10%;
-  padding-top:3%;
-  padding-left: 42%;
-}
-
 /*ID에다가 적용할 CSS 속성*/
 #Logo {
     float: left;
@@ -32,16 +48,14 @@ a:hover{
   float: right;
   padding-right: 16%;
 }
-#Menu_bt ul{
-  display: none;
-}
-#Menu_bt ul a:hover li{
- display: block;
-}
+
 #Photo2{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#Sub_menu{
+  color: #808080;
 }
