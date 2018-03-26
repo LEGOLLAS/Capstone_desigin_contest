@@ -8,16 +8,15 @@ body {
 
 
 
-.Top_head{
-  background-color: yellow;
-}
 a:link{
   color: #808080;
   text-decoration: none;
 }
 ul{
-  margin-right:394px;
-  width: 1000px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right:332px;
+  width: 860px;
   float: right;
   list-style: none;
   font-weight: bold;
@@ -71,6 +70,7 @@ div.header > a.btn_more{
     margin-left: 394px;
 }
 #topRight{
+  float:right;
   margin-left: 394px;
   margin-right: 394px;
   font-size: 9pt;
