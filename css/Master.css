@@ -7,16 +7,16 @@ a:link{
   text-decoration: none;
 }
 ul{
-  margin-top: -58px;
-  width: 50%;
+  position: fixed;
+  margin-right:394px;
+  width: 1000px;
   float: right;
-  padding-right: 10%;
   list-style: none;
   font-weight: bold;
 }
 ul li{
   float: left;
-  margin: 0px 20px;
+  margin: 0px 50px;
 }
 /*CLASS에다가 적용할 CSS 속성*/
 .Menu_bt ul{
@@ -26,10 +26,12 @@ ul li{
   margin: 0px;
   border: 0px;
   position: absolute;
-  width : 600%;
+  width : 100%;
 }
 
 .Menu_bt li:hover ul{
+  z-index: 100;
+  position: absolute;
   display: block;
   color: slateblue;
 }
@@ -39,6 +41,13 @@ a.btn_more{
   font-weight: bold;
   margin:4px 7px 0 0;
   text-decoration: none;
+}
+div.header > a.btn_more{
+  float:right;
+  fint-size:17px;
+  fint-weight:bold;
+  margin:4px 7px 0 0;
+  text-decoration:none;
 }
 /*ID에다가 적용할 CSS 속성*/
 #Logo {
@@ -51,11 +60,13 @@ a.btn_more{
     padding-left: 13%;
 }
 #topRight{
+  margin-left: 394px;
+  margin-right: 394px;
   font-size: 9pt;
-  float: right;
-  padding-right: 16%;
 }
-
+#Photo1{
+  padding-top: 100px;
+}
 #Photo2{
   text-align: center;
   margin-left: auto;
