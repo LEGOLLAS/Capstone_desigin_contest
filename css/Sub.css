@@ -11,14 +11,41 @@ div{
 
 /*클래스 스타일*/
 
-
+/*ID 스타일*/
 #Top_Menu{
+  margin:0 auto;
+  width: 1000px;
   border-color: blue;
   text-align: right;
 }
+#Main_Menu{
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+}
+#Photo1{
+  margin:0 auto;
+  height: auto;
+}
+#Photo2{
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+#Empty{
+  margin: 0 auto;
+  width: 1000px;
+}
 #Menu_bt{
+  display: inline;
   list-style:none;
   float: right;
-  margin:0 auto;
   position:relative;
+  background-color: #fff000;
+}
+#content{
+  width: 1000px;
+  height:100px;
+  margin:0 auto;
+  background-color: #fffff0;
 }
