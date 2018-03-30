@@ -1,0 +1,14 @@
+#f1{
+  top: 0px;
+  width: 20%;
+  position: static;
+  background-color: #fff000;
+}
+#f2{
+  top: 0px;
+  left: 20%;
+  width: 60%;
+  position:absolute;
+  text-align: Right;
+  background-color: #ff0000;
+}
