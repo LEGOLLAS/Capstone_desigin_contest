@@ -1,14 +1,24 @@
-#f1{
-  top: 0px;
-  width: 20%;
-  position: static;
-  background-color: #fff000;
+*{
+  font-family :'나눔고딕', 'Malgun Gothic', sans-serif;
+  color: #808080;
 }
-#f2{
-  top: 0px;
-  left: 20%;
-  width: 60%;
-  position:absolute;
-  text-align: Right;
-  background-color: #ff0000;
+a{
+  text-decoration: none;
+}
+div{
+  border-style: groove;
+}
+
+/*클래스 스타일*/
+
+
+#Top_Menu{
+  border-color: blue;
+  text-align: right;
+}
+#Menu_bt{
+  list-style:none;
+  float: right;
+  margin:0 auto;
+  position:relative;
 }
