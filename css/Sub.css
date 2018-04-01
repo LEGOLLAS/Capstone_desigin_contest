@@ -46,6 +46,7 @@ ul li{
 }
 /*ID 스타일*/
 #Top_Menu{
+  font-size: 5px;
   margin:0 auto;
   width: 1100px;
   text-align: right;
