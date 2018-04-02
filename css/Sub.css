@@ -47,14 +47,14 @@ ul li{
 .Header_Display{
   margin: 0 auto;
   width: 1100px;
-  height: 70px;
+  height: 90px;
 }
 .Sub_Display{
   margin: 0 auto;
   position: absolute;
   opacity: 0.9;
   background-color: #ffffff;
-  width: 1300px;
+  width: 1100px;
   height: 250px;
 }
 .Sub_Display :hover{
