@@ -1,6 +1,6 @@
 *{
   font-family :'나눔고딕', 'Malgun Gothic', sans-serif;
-  color: #808080;
+  color: dimgray;
 }
 a{
   text-decoration: none;
@@ -44,17 +44,24 @@ ul li{
   width: 40%;
   background-color: red;
 }
+.Header_Display{
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+}
+.Sub_Display{
+  position: absolute;
+  opacity: 0.9;
+  background-color: #ffffff;
+  width: 1304px;
+  height: 250px;
+}
 /*ID 스타일*/
 #Top_Menu{
   font-size: 5px;
   margin:0 auto;
   width: 1100px;
   text-align: right;
-}
-#Main_Menu{
-  margin: 0 auto;
-  width: 1100px;
-  height: 100px;
 }
 #Photo1{
   margin:0 auto;
@@ -70,12 +77,22 @@ ul li{
   width: 1100px;
 }
 #Menu_bt{
-  display: inline;
+  margin-top: 45px;
+  padding:0px;
   list-style:none;
   float: right;
   text-align: right;
-  position:relative;
-  background-color: #fff000;
+}
+#Menu_bt li{
+  float: left;
+}
+#Menu_bt a{
+  float: right;
+  margin-left: 70px;
+}
+#Sub_bt{
+  margin:0 auto;
+  font-size: 12px;
 }
 #Bottom{
   margin: 0 auto;
