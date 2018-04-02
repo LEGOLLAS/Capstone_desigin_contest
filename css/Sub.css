@@ -50,14 +50,16 @@ ul li{
   height: 70px;
 }
 .Sub_Display{
-  display: none;
+  margin: 0 auto;
   position: absolute;
   opacity: 0.9;
   background-color: #ffffff;
-  width: 100%;
+  width: 1300px;
   height: 250px;
 }
+.Sub_Display :hover{
 
+}
 /*ID 스타일*/
 #Top_Menu{
   font-size: 5px;
