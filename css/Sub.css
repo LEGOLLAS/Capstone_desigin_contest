@@ -8,9 +8,6 @@ a{
 div{
   border-style: groove;
 }
-nav{
-  background-color: #ffe08c;
-}
 nav ul{
   position: relative;
   margin:0px;
@@ -49,7 +46,11 @@ ul li{
   width: 1100px;
   height: 90px;
 }
+.Header_Display a:hover{
+  color: #0000ff;
+}
 .Sub_Display{
+  display: none;
   margin: 0 auto;
   position: absolute;
   opacity: 0.9;
@@ -60,12 +61,13 @@ ul li{
 
 /*ID 스타일*/
 #Top_Menu{
-  font-size: 5px;
+  font-size: 7px;
   margin:0 auto;
   width: 1100px;
   text-align: right;
 }
 #Photo1{
+  z-index: 200;
   margin:0 auto;
   height: auto;
 }
@@ -93,6 +95,11 @@ ul li{
   float: right;
   margin-left: 70px;
 }
+#Menu_bt ul li:hover Sub_Display{
+  z-index: 300;
+  display: block;
+}
+
 #Sub_bt1{
   text-align: center;
   margin-left: 405px;
