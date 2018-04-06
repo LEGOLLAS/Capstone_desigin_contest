@@ -24,7 +24,6 @@ ul li{
   background-size:50%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-position: left center, right center;
-  background-attachment: fixed, fixed;
 }
 .Header_Display{
   margin: 0 auto;
@@ -104,9 +103,17 @@ ul li{
   display: block;
 }
 #Notice1{
+  background-image:url('../images/notice.png');
   height: 100%;
   float: left;
   width: 34%;
+}
+#Notice1_1{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
 }
 #Notice2{
   float:left;
@@ -114,23 +121,23 @@ ul li{
   width: 33%;
   background-color: rgb(238, 238, 238);
 }
+#Notice2-1{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
 #Notice3{
   height: 100%;
   float: right;
   width: 33%;
   background-color: rgb(228, 225, 222);
 }
-#Notice1_More{
-  font-size: 15px;
-  font-style: rgb(255, 255, 255);
-  width: 60%;
-  height: 100%;
-  float: right;
-}
-#Notice3_Photo{
-  width: 60%;
-  height: 100%;
-  float: left;
+#Notice3-1{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
 #Bottom{
   margin: 0 auto;
