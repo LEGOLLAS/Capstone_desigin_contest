@@ -1,7 +1,7 @@
 $(document).ready(function() {
-			$('#Menu_bt, #submenu').hover(function() {
-			$('#submenu').show();
+			$('#Menu_bt, #Submenu').hover(function() {
+			$('#Submenu').show();
 		}, function () {
-			$('#submenu').hide();
+			$('#Submenu').hide();
 		});
 });
