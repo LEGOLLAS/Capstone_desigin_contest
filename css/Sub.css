@@ -3,7 +3,7 @@
   color: dimgray;
 }
 a{
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -72,37 +72,16 @@ ul li{
   float: right;
   text-align: right;
 }
-#Menu_bt li{
+#Menu_bt > li{
+  vertical-align: middle;
   float: left;
 }
-#Menu_bt a{
-  float: right;
+#Menu_bt > li > a{
   margin-left: 70px;
-}
-#Menu_bt ul li:hover Sub_Display{
-  display: block;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
-#Sub_bt1{
-  text-align: center;
-  margin-left: 405px;
-  width: 100px;
-  font-size: 12px;
-}
-#Sub_bt1 li{
-  display: block;
-}
-#Sub_bt2{
-  top:0px;
-  position: absolute;
-  text-align: center;
-  margin-left: 535px;
-  width: 100px;
-  font-size: 12px;
-}
-#Sub_bt2 li{
-  display: block;
-}
 #Notice1{
   background-image:url('../images/notice.png');
   height: 100%;
