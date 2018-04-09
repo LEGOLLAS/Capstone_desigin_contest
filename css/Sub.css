@@ -3,7 +3,7 @@
   color: dimgray;
 }
 a{
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -34,7 +34,9 @@ ul li{
 .Header_Display a:hover{
   color: #0000ff;
 }
-.Sub_Display{
+
+/*ID 스타일*/
+#Sub_Display{
   display: none;
   margin: 0 auto;
   position: absolute;
@@ -43,8 +45,6 @@ ul li{
   width: 1120px;
   height: 250px;
 }
-
-/*ID 스타일*/
 #Top_Menu{
   font-size: 10px;
   margin:0 auto;
