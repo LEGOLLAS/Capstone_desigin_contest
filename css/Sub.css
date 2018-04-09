@@ -1,3 +1,7 @@
+html,body{
+  margin:0;
+  padding: 0;
+}
 *{
   font-family :'나눔고딕', 'Malgun Gothic', sans-serif;
   color: dimgray;
@@ -25,39 +29,6 @@ a{
   color: #0000ff;
 }
 /*ID 스타일*/
-#Submenu{
-  font-size:13px;
-  position: absolute;
-  /*display:none;*/
-  opacity: 0.9;
-  background-color: #ffffff;
-  width: 100%;
-  height: 200px;
-  border-top: 1px solid #ccc;
-
-}
-#Submenu_box{
-  margin: 0 auto;
-  height: 200px;
-  width:1100px;
-}
-#Submenu_box > div{
-  float: right;
-}
-#Submenu ul{
-  display: inline-block;
-  padding:0;
-  list-style: none;
-  text-align: right;
-  vertical-align: top;
-}
-#Submenu ul li{
-  padding : 10px 0;
-}
-#Submenu ul li a:hover{
-  color: blue;
-  text-decoration: none;
-}
 #Top_Menu{
   font-size: 10px;
   margin:0 auto;
@@ -86,20 +57,53 @@ a{
   text-align: right;
 }
 #Menu_bt > li{
+  width: 140px;
   vertical-align: middle;
-  float: left;
+  float: right;
 }
 #Menu_bt > li > a{
-  margin-left: 70px;
   vertical-align: middle;
   text-decoration: none;
 }
+#Submenu{
+  font-size:13px;
+  position: absolute;
+  display:none;
+  opacity: 0.9;
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #ccc;
 
+}
+#Submenu_box{
+  margin: 0 auto;
+  height: 200px;
+  width:1100px;
+}
+#Submenu_box > div{
+  float: right;
+}
+#Submenu ul{
+  display: inline-block;
+  padding:0;
+  list-style: none;
+  text-align: right;
+  vertical-align: top;
+}
+#Submenu ul li{
+  width: 137px;
+  padding : 10px 0;
+}
+#Submenu ul li a:hover{
+  color: blue;
+  text-decoration: none;
+}
 #Notice1{
   background-image:url('../images/notice.png');
   height: 100%;
   float: left;
-  width: 34%;
+  width: 33.3%;
 }
 #Notice1_1{
   margin-top: 20px;
@@ -111,7 +115,7 @@ a{
 #Notice2{
   float:left;
   height: 100%;
-  width: 33%;
+  width: 33.3%;
   background-color: rgb(238, 238, 238);
 }
 #Notice2-1{
@@ -123,7 +127,7 @@ a{
 #Notice3{
   height: 100%;
   float: right;
-  width: 33%;
+  width: 33.4%;
   background-color: rgb(228, 225, 222);
 }
 #Notice3-1{
