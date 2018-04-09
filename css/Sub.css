@@ -28,6 +28,7 @@ a{
 .Header_Display a:hover{
   color: #0000ff;
 }
+
 /*ID 스타일*/
 #Top_Menu{
   font-size: 10px;
@@ -44,7 +45,6 @@ a{
   width: 1100px;
   height: 100%;
 }
-
 #Empty{
   margin:0 auto;
   width: 1100px;
@@ -53,13 +53,13 @@ a{
   margin-top: 45px;
   padding:0px;
   list-style:none;
-  float: right;
+  float: left;
   text-align: right;
 }
 #Menu_bt > li{
   width: 140px;
   vertical-align: middle;
-  float: right;
+  float: left;
 }
 #Menu_bt > li > a{
   vertical-align: middle;
