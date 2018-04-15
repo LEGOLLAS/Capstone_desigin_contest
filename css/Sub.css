@@ -66,6 +66,7 @@ a{
   text-decoration: none;
 }
 #Submenu{
+  top:80px;
   font-size:13px;
   position: absolute;
   display:none;
@@ -73,7 +74,6 @@ a{
   background-color: #ffffff;
   width: 100%;
   height: 200px;
-  border-top: 1px solid #ccc;
 
 }
 #Submenu_box{
