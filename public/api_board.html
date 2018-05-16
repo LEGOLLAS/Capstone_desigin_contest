@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>API 사용하기</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/normalize.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/api_board.css">
+</head>
+<body>
+  <!-- NAVBAR ================================================== -->
+  <div class="container-fluid">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img class="img" src="./img/66log.png" alt=""></a>
+            </div>
+
+            <div id="navbar" class="collaspse navbar-collapse nevbar-right nevbar-1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Mypage</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+  <!-- ================== 페이지 설명 =================== -->
+  <div class="container-1">
+    <div class="container-intro">
+
+      <div class="intro">
+        <span class="page-name">
+          <span>API</span>
+        </span>
+        <span class="page-intro">
+          <span>오픈 API를 통해 애플리케이션을 제작할 수 있습니다.</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================= -->
+  <div class="article">
+    <div class="api_aside">
+      <div class="aside_search">
+        <div class="category">
+          <strong class="category_title">CATEGORY</strong>
+          <ul class="category_list">
+            <li>
+              <a href="api_board.html">
+                <span class="tit">행사</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="api_article">
+      <div class="search">
+        <form class="search_form" action="#">
+          <input class="search_input" name="q" placeholder="검색하기">
+          <button class="search_btn">
+            <img class="search_icon icon" src="/img/go.png" />
+          </button>
+        </form>
+      </div>
+
+      <div class="api_list">
+        <ul class="api_set_list">
+          <li>
+            <a class="set_link" href="api_info_f1.html">
+              <span class="api_institute">
+                6stones
+              </span>
+              <em class="api_tit">
+                소규모 행사 오픈 API
+              </em>
+              <p class="api_desc">
+                제주도내, 제주대학교 및 학과 행사를 제공합니다.
+              </p>
+              <div class="data_type">
+                <span class="data_link">JSON</span>
+              </div>
+              <div class="update">
+                <span class="update_txt">
+                  <span class="update_date">업데이트</span>
+                  2018-04-27
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a class="set_link" href="api_info_f2.html">
+              <span class="api_institute">
+                제주특별자치도 서귀포시
+              </span>
+              <em class="api_tit">
+                서귀포시 문화예술행사정보
+              </em>
+              <p class="api_desc">
+                제주도 서귀포시에서 열리는 문화예술행사 정보를 제공합니다.
+              </p>
+              <div class="data_type">
+                <span class="data_link">link</span>
+              </div>
+              <div class="update">
+                <span class="update_txt">
+                  <span class="update_date">업데이트</span>
+                  2018-01-23
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a class="set_link" href="api_info_f3.html">
+              <span class="api_institute">
+                제주특별자치도 제주시
+              </span>
+              <em class="api_tit">
+                제주시 축제/행사
+              </em>
+              <p class="api_desc">
+                제주도 제주시에서 열리는 축제, 행사 정보를 제공합니다.
+              </p>
+              <div class="data_type">
+                <span class="data_link">link</span>
+              </div>
+              <div class="update">
+                <span class="update_txt">
+                  <span class="update_date">업데이트</span>
+                  2017-12-13
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./asset/js/vendor/holder.js"></script>
+</body>
+</html>

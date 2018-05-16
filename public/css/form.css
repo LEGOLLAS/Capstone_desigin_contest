@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face { /* font-face를 이용하여 나눔바른고딕 설정 */
+  font-family: 'Jeju Gothic', serif;
+}
+
+body { font-family: 'Jeju Gothic', serif; }
+
+.container2 {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.size {
+  font-size:15px;
+}
+
+.title {
+    border-left: 4px solid #7b7b7b;
+    padding-left: 5px;
+}
+
+input {
+  font-family: 'Jeju Gothic', serif;
+  font-size: 15px;
+}
+.user-table {
+    margin: 0 auto;
+    width: 900px;
+    height : 550px;
+    border-top: 3px solid #7b7b7b;
+    border-bottom: 1px solid #7b7b7b;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.user-table tr {
+    height: 25px;
+}
+
+.user-table td {
+    font-size: 12px;
+    padding: 5px 5px 4px 5px;
+    border-bottom: 1px dotted #cbcbcb;
+    white-space: nowrap;
+}
+
+.search-table {
+    padding: 20px;
+    width: 100%;
+    border-top: 1px solid #7b7b7b;
+    border-bottom: 1px solid #7b7b7b;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.search-table tr {
+    height: 25px;
+}
+
+.search-table th {
+    font-size: 12px;
+    padding: 5px 5px 4px 5px;
+    background-color: #E8E8E8;
+    text-align: left;
+}
+
+.search-table td {
+    font-size: 12px;
+    padding: 5px 5px 4px 5px;
+}
+
+.list-table {
+    padding: 20px;
+    width: 100%;
+    border-top: 2px solid #7b7b7b;
+    border-bottom: 1px solid #7b7b7b;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.list-table tr {
+    height: 25px;
+    cursor: pointer;
+}
+
+.list-table tr:hover {
+    background-color: #ddd;
+}
+
+.list-table th {
+    font-size: 11px;
+    padding: 5px 3px 4px 3px;
+    border: 1px solid #cbcbcb;
+    border-bottom: 1px solid #7b7b7b;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #30427d;
+}
+
+.list-table td {
+    font-size: 12px;
+    padding: 5px 5px 4px 5px;
+    border-bottom: 1px dotted #cbcbcb;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.asterisk:after {
+    content: "\002a";
+    padding: 8px 5px 0px;
+    color: #bb162b;
+}
+
+.btn-default {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+    border-radius: 5px;
+}
+
+.btn-default:hover {
+    color: inherit;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #1c84c6;
+    border-color: #1c84c6;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #1a7bb9;
+    border-color: #1a7bb9;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: #ed5565;
+    border-color: #ed5565;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #ec4758;
+    border-color: #ec4758;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-1 {
+  background-color: #A566FF;
+  text-align: center;
+  width: 100%;
+  height: 160px;
+  display: block;
+}
+.container-intro {
+  width: 1168px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+}
+
+.container-1
+.container-intro::before{
+  display: inline-block;
+  vertical-align: middle;
+  width: 289px;
+  height: 100%;
+  content: '';
+}
+.intro{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.page-name {
+  font-size: 38px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 34px;
+  padding-right: 20px;
+  border-right: 1px solid #e7e8ea;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.page-intro {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 20px;
+}
+.Enrollment{
+  border-top: 3px solid #1f351e;
+}
+.button{
+  width:300px;
+  height: 50px;
+  margin:0 auto;
+}
+.bt{
+  margin-top : 15px;
+}
+.back2{
+  background-image: url('../img/home3.png');
+  padding-top: 50px;
+  width: 100%;
+  height: 600px;
+}
+#login{
+  border: 0px solid #fff;
+  padding: 30px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height: 500px;
+  -webkit-box-shadow: -1px -1px 26px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 26px 10px rgba(0,0,0,0.75);
+  box-shadow: -1px -1px 26px 10px rgba(0,0,0,0.75);
+}

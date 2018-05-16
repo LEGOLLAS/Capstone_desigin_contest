@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face { /* font-face를 이용하여 나눔바른고딕 설정 */
+  font-family: 'Jeju Gothic', serif;
+}
+a:hover { text-decoration: none;}
+
+body { font-family: 'Jeju Gothic', serif; padding-top: 90px; }
+/* body태그 부분에 padding-top: 90px;을 지정하고 본문 체로 NanumBarunGothic을 지정함 */
+
+.container-fluid { padding: 0;}  /* container-fluid 선택자 양 옆 부분에 설정된 패딩 값을 0으로 변환 */
+
+/* nav bar customize */
+.navbar{ /*네브바 부분*/
+  background-color: #fff;
+  border: none;
+  padding-bottom: 10px;
+  font-family: 'Jeju Gothic', serif;
+  font-weight: 300;
+  font-size: 18px;
+  height: 90px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+/* 화면이 축소될 경우 네브바 부분에 생기는 아이콘 부분에 대한 위치 선정 */
+.navbar-toggle {
+  position: relative;
+  margin-top: 40px;
+  top: 2px;
+}
+
+.navbar-nav {
+  padding-right : 10px;
+  margin-top: 20px;
+  background-color: #fff
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+}
+
+.img{
+  height: 70px;
+  width: auto;
+}
+
+.navbar-brand {
+  padding-left : 20px;
+}
+
+.navbar-collapse {
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #8041D9
+}
+
+.navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus {
+  color: #8041D9; background-color: #fff
+}
+
+.control {
+  position: inherit;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  right: 50%
+}
+#icon {
+  border-radius: 50%;
+  /* background-color: #8041D9; */
+  width = 140px;
+  height = 140px;
+}
+
+@media (max-width: 320px) {
+  .navbar-brand img{
+    width: 80%;
+    height: auto;
+    margin-top: -100px
+  }
+}
+
+@media (max-width: 980px) {
+  .navbar-nav li {
+    margin: 0 10px;
+  }
+}

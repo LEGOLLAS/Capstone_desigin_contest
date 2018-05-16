@@ -1,0 +1,27 @@
+.img_con {
+  padding-top: 50px;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img_con img {
+  width: 100%;
+  height: auto;
+}
+.explain {
+  padding-top: 30px;
+  padding-bottom: 100px;
+    margin: 0 auto;
+  font-size: 16px;
+}
+#td_color {
+  width:50px;
+  background-color: #e7e8ea;
+  text-align: center;
+
+}
+
+.td_info{
+  width: 400px;
+}

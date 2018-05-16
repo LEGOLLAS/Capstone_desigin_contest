@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>로그인</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/normalize.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/carousel.css" rel="stylesheet">
+  <link href="./css/form.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrap.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrap.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img class="img" src="./img/66log.png" alt=""></a>
+            </div>
+            <div id="navbar" class="collaspse navbar-collapse nevbar-right nevbar-1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="#">Mypage</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+<!-- ======================================================= -->
+    <div class="back2">
+      <form  id="login">
+        <h1 style="text-align:center; color: #CEF6F5;">로그인</h1>
+        <div class="form-group">
+          <label for="exampleInputID" style="margin-left:9px; color:#CEF6F5">ID</label>
+          <center><input type="text" class="form-control" id="exampleInputID" placeholder="ID" style="max-width: 300px;"></center>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" style="margin-left:9px; color:#CEF6F5">Password</label>
+          <center><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="max-width:300px;"></center>
+        </div>
+        <div class="form-group">
+          <p style="margin-left:9px;"><a href="signup.html" style="font-size:16px">회원가입하기</a></p>
+          <p style="margin-left:9px;"><a href="find.html" style="font-size:16px">아이디와 비밀번호를 잊어버리셨나요?</a></p>
+        </div>
+        <center>
+          <input type="button" class="btn btn-default" value="로그인" style="width:200px;" onClick="location.href='index.html'"></button>
+        </center>
+      </form>
+    </div>
+</body>
+</html>
